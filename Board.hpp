@@ -9,15 +9,15 @@ private:
        //and numCols columns
     int numRows; 
     int numCols;
-    int goal; //what is the goal
+    int target; //what is the target
     int max; //the current max in all cells of panel
 
 public:
     Board(); //construct a 3 x 3 panel
     Board(int m); //construct a m x m panel
     Board(int m, int n); //construct a m x n panel
-    void setGoal(int goal);
-        //set goal of the game
+    void setTarger(int target);
+        //set target of the game
     ~Board(); //destructor,
         //when no longer need the current object,
         //release dynamic memory of this object.
